@@ -17,6 +17,7 @@ public class Demo0Application extends WebMvcConfigurerAdapter{
 	@Value("${spring.mvc.view.prefix}")
 	String prefix;
 	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Demo0Application.class, args);
 	}
