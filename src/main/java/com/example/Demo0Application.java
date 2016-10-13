@@ -26,7 +26,7 @@ public class Demo0Application extends WebMvcConfigurerAdapter{
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
 
-		System.out.println("haiii");
+		
 		registry.addViewController("/welcome").setViewName("welcome");
         registry.addViewController("/addProduct").setViewName("AddProduct");
         registry.addViewController("/editProduct").setViewName("edit");
